@@ -1,5 +1,4 @@
-
-Function FindFirstRepeatedCharacter($string) {
+Function Get-FirstRepeatedCharacter($string) {
     $charArr = $string.toCharArray()
     $charHash = @{}
     foreach ($char in $charArr){
